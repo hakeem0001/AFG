@@ -10,13 +10,10 @@ for n in range(10):
             out = (s[j-1] + s[k-1]) % 100 # the pseudorandom output
         elif 0 < i < 6:
             s[i] = s[i+1] # shift the array
-            print("s[",i,"]", s[i])
+            #print("s[",i,"]", s[i])
         else:
             s[i] = out   # append the result to last position in the sequence
             list_key.append(out)
 
 
 print(list_key)
-
-#sequence: numpy.ndarray = numpy.random.randint(-128, 128, 1000, dtype=int)
-#print(sequence)
