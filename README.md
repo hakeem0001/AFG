@@ -1,0 +1,2 @@
+# AFG
+Additive Fibonacci Generator
